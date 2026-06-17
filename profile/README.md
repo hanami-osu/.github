@@ -8,7 +8,7 @@
 
 Hanami is a collection of connected osu!-related projects, including web applications, Discord integrations, desktop tools, and community games.
 
-[Website](https://hanami.yorunoken.com) · [osu!guessr](https://osuguessr.com) · [Issues & planning](https://github.com/hanami-osu/meta)
+[Website](https://hanami.yorunoken.com) · [osu!guessr](https://osuguessr.com) · [Issues & planning](https://github.com/hanami-osu/infra/issues)
 
 </div>
 
