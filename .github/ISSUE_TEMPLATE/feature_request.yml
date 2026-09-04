@@ -1,0 +1,55 @@
+name: Feature request
+description: Propose an improvement to a Hanami project
+title: "[Feature] "
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project would own this improvement?
+      options:
+        - Hanami Bot
+        - Hanami Web
+        - osu!guessr
+        - Hanami Companion
+        - Shared infrastructure
+        - Cross-project or unclear
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user need or limitation would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the outcome you would like, without requiring a specific implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe existing workarounds or other approaches, if any.
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Cross-project or migration impact
+      description: Note affected projects, compatibility concerns, or required migrations.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for this request.
+          required: true
+        - label: This request does not contain credentials or private data.
+          required: true

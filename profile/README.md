@@ -1,40 +1,44 @@
 <div align="center">
 
-<img src="../hanami.png" alt="Hanami osu!" width="180">
+<img src="../hanami.png" alt="Illustration of the Hanami mascot" width="180">
 
 # Hanami osu!
 
-**Open-source tools, services, and games built for the osu! community.**
+**Open-source osu! tools, a live browser game, and work in progress.**
 
-Hanami is a collection of connected osu!-related projects, including web applications, Discord integrations, desktop tools, and community games.
+Hanami is a small family of independently useful projects for the osu! community.
 
-[Website](https://hanami.yorunoken.com) · [osu!guessr](https://osuguessr.com) · [Issues & planning](https://github.com/hanami-osu/infra/issues)
+[Website](https://hanami.yorunoken.com) · [Community](https://discord.gg/RcGjBZkDP6) · [Sponsor yorunoken](https://github.com/sponsors/yorunoken) · [Issues & planning](https://github.com/hanami-osu/infra/issues)
 
 </div>
 
-## The ecosystem
+## Projects
 
-Hanami projects are designed to work together while remaining independently usable.
+| Project | Purpose | Status |
+| --- | --- | --- |
+| [Hanami Bot](https://github.com/hanami-osu/bot) | osu! statistics, tracking, and utilities for Discord | Available |
+| [osu!guessr](https://github.com/hanami-osu/osu-guessr) | A browser game for identifying beatmaps from audio and images | [Live](https://osuguessr.com) |
+| [Hanami Companion](https://github.com/hanami-osu/companion) | A desktop companion for local osu! integrations | In development |
+| [Map Analyzer](https://github.com/yorunoken/osu-map-analyzer-lib) | A Rust library for analyzing stream and jump patterns | Published |
+| [Hanami Web](https://github.com/hanami-osu/web) | The public website and shared account platform | Website live, accounts in development |
 
-A shared Hanami account connects users across supported services, allowing projects such as the website, Discord bot, companion application, and osu!guessr to share integrations without requiring separate accounts for every application.
+## How the ecosystem fits together
 
-Each project is maintained in its own repository so it can be developed, deployed, and released independently.
+Each project is developed, deployed, and released independently. Shared integrations are added when they make the projects more useful without making them depend on one another.
+
+Work toward a unified Hanami account is still in development and is tracked in [hanami-osu/infra#1](https://github.com/hanami-osu/infra/issues/1).
 
 ## Open source
 
-Most of the Hanami ecosystem is developed publicly.
-
-The goal is to build useful and enjoyable tools for the osu! community while keeping development transparent and making it easier for others to contribute, learn from the code, and build upon it.
+Published Hanami code, issues, and project history are public. Live products, released packages, and prototypes are labeled separately so their current state is clear.
 
 ## Contributing
 
 Contributions, bug reports, translations, and feature suggestions are welcome.
 
-For bugs or changes affecting a specific project, use that project's issue tracker.
+For project-specific work, use that project's issue tracker. For organization-wide planning, shared infrastructure, account systems, cross-project integrations, or work where the correct repository is unclear, use [hanami-osu/infra](https://github.com/hanami-osu/infra/issues).
 
-For organization-wide planning, shared infrastructure, account systems, cross-project integrations, or issues where the correct repository is unclear, use the [meta repository](https://github.com/hanami-osu/meta).
-
-For larger changes, opening an issue before starting implementation is recommended so the approach can be discussed.
+Read the organization [contributing guide](../CONTRIBUTING.md) before opening a larger change. Report security vulnerabilities through the [security policy](../SECURITY.md), never through a public issue.
 
 ---
 

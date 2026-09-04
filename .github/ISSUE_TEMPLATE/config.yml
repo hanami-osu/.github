@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/hanami-osu/.github/security/policy
+    about: Report vulnerabilities privately instead of opening a public issue.
+  - name: Community support
+    url: https://discord.gg/RcGjBZkDP6
+    about: Ask general questions and talk with the Hanami community.
