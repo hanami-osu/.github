@@ -19,14 +19,11 @@ Hanami is a small family of independently useful projects for the osu! community
 | [Hanami Bot](https://github.com/hanami-osu/bot) | osu! statistics, tracking, and utilities for Discord | Available |
 | [osu!guessr](https://github.com/hanami-osu/osu-guessr) | A browser game for identifying beatmaps from audio and images | [Live](https://osuguessr.com) |
 | [Hanami Companion](https://github.com/hanami-osu/companion) | A desktop companion for local osu! integrations | In development |
-| [Map Analyzer](https://github.com/yorunoken/osu-map-analyzer-lib) | A Rust library for analyzing stream and jump patterns | Published |
 | [Hanami Web](https://github.com/hanami-osu/web) | The public website and shared account platform | Website live, accounts in development |
 
 ## How the ecosystem fits together
 
-Each project is developed, deployed, and released independently. Shared integrations are added when they make the projects more useful without making them depend on one another.
-
-Work toward a unified Hanami account is still in development and is tracked in [hanami-osu/infra#1](https://github.com/hanami-osu/infra/issues/1).
+Each project is developed, deployed, and released independently. Hanami Web connects Bot account linking and osu!guessr sign-in.
 
 ## Open source
 
