@@ -4,9 +4,7 @@
 
 # Hanami osu!
 
-**Open-source osu! tools, a live browser game, and work in progress.**
-
-Hanami is a small family of independently useful projects for the osu! community.
+Tools, games, and services for the osu! community, built in the open.
 
 [Website](https://hanami.yorunoken.com) · [Community](https://discord.gg/RcGjBZkDP6) · [Sponsor yorunoken](https://github.com/sponsors/yorunoken) · [Issues & planning](https://github.com/hanami-osu/infra/issues)
 
@@ -14,28 +12,18 @@ Hanami is a small family of independently useful projects for the osu! community
 
 ## Projects
 
-| Project | Purpose | Status |
-| --- | --- | --- |
-| [Hanami Bot](https://github.com/hanami-osu/bot) | osu! statistics, tracking, and utilities for Discord | Available |
-| [osu!guessr](https://github.com/hanami-osu/osu-guessr) | A browser game for identifying beatmaps from audio and images | [Live](https://osuguessr.com) |
-| [Hanami Companion](https://github.com/hanami-osu/companion) | A desktop companion for local osu! integrations | In development |
-| [Hanami Web](https://github.com/hanami-osu/web) | The public website and shared account platform | Website live, accounts in development |
+| Project | What it is |
+| --- | --- |
+| [Hanami Bot](https://github.com/hanami-osu/bot) | Discord bot for osu! stats, tracking, and utilities |
+| [osu!guessr](https://github.com/hanami-osu/osu-guessr) | Guess the beatmap from audio, images, and skins, played in the browser. Live at [osuguessr.com](https://osuguessr.com) |
+| [Hanami Web](https://github.com/hanami-osu/web) | Public website and shared account platform. Handles Bot account linking and osu!guessr sign-in. Accounts are still in development |
+| [Hanami Companion](https://github.com/hanami-osu/companion) | Desktop app connecting osu! and local system features. In development |
 
-## How the ecosystem fits together
+## Where to file things
 
-Each project is developed, deployed, and released independently. Hanami Web connects Bot account linking and osu!guessr sign-in.
+Bugs and feature requests go to the repository that owns the behavior. Shared infrastructure, account systems, cross-project integrations, or work without an obvious home belongs in [hanami-osu/infra](https://github.com/hanami-osu/infra/issues).
 
-## Open source
-
-Published Hanami code, issues, and project history are public. Live products, released packages, and prototypes are labeled separately so their current state is clear.
-
-## Contributing
-
-Contributions, bug reports, translations, and feature suggestions are welcome.
-
-For project-specific work, use that project's issue tracker. For organization-wide planning, shared infrastructure, account systems, cross-project integrations, or work where the correct repository is unclear, use [hanami-osu/infra](https://github.com/hanami-osu/infra/issues).
-
-Read the organization [contributing guide](../CONTRIBUTING.md) before opening a larger change. Report security vulnerabilities through the [security policy](../SECURITY.md), never through a public issue.
+Before opening anything larger, skim the [contributing guide](../CONTRIBUTING.md). Found an exploit or credential leak? Follow the [security policy](../SECURITY.md) instead of filing publicly.
 
 ---
 
